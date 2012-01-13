@@ -1,0 +1,17 @@
+#cfct-sortables-sidebar { /* Row sortables */
+	position:relative; /* Bugfix: prevents draggables positioning bug in Gecko */
+}
+
+#post-body-content #cfct-select-new-sidebar-row { 
+	display:none;
+}
+
+#cfct-select-new-sidebar-row {
+	margin:0 auto;
+	position:absolute;
+	z-index:5;
+}
+
+#cfct-sortables-add-container {
+	clear:both;
+}
